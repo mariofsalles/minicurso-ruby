@@ -8,4 +8,4 @@ teste = nil # vazia
 $var = true # tipo booleana
 # constantes
 PI = 3.14
-ARR = [1, 2, 3] # array
+ARR = [1, 2, 3] # array.
