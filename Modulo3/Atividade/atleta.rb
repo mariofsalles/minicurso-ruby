@@ -1,6 +1,6 @@
 require_relative "person"
  
-class Professional < Person
+class Atleta < Person
   def initialize(name, age, height, gender, sport)
     super(name, age, height, gender)
     @sport = sport
