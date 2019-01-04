@@ -10,5 +10,6 @@ pessoa1.walk(10)
 pessoa2.to_eat('carne')
 puts('-----------------------------')
 atleta = Atleta.new("Cristi", 23, 1.75, "homem", "jiu jitsu")
+atleta.soma(5,6)
 atleta.introduce
 atleta.my_sport

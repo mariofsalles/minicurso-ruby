@@ -1,4 +1,12 @@
+# modulo como mixin
+module FazSoma
+  def soma(a,b)
+    puts a + b
+  end
+end
+
 class Person
+  include FazSoma
   def initialize(name, age, height, gender) # metodo contrutor
     @name = name
     @age = age
