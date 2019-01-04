@@ -1,13 +1,27 @@
-# modulo como mixin
-module FazSoma
+module OperacoesMatematicas
   def soma(a,b)
     puts a + b
   end
+
+  def diferenca(a,b)
+    puts a - b
+  end
+
+  def produto(a,b)
+    puts a * b
+  end
+
+  def divisao(a,b)
+    puts a / b
+  end
+
 end
 
 class Person
-  include FazSoma
-  def initialize(name, age, height, gender) # metodo contrutor
+
+  include OperacoesMatematicas
+
+  def initialize(name, age, height, gender) # metodo construtor
     @name = name
     @age = age
     @height = height
