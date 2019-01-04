@@ -16,5 +16,5 @@ module Filial
   end
 end
 
-matriz = Matriz: :GerarContrato.new
-filial = Filial: :GerarContrato.new
+matriz = Matriz::GerarContrato.new
+filial = Filial::GerarContrato.new
