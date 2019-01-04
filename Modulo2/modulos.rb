@@ -1,0 +1,3 @@
+module MyModule
+  #code
+end
