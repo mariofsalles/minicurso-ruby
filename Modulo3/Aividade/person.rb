@@ -1,9 +1,9 @@
 class Person
-  def initialize(name, age, height, sex) # metodo contrutor
+  def initialize(name, age, height, gender) # metodo contrutor
     @name = name
     @age = age
     @height = height
-    @sex = sex
+    @gender = gender
   end
  
   def talk
@@ -23,6 +23,6 @@ class Person
   end
  
   def introduce
-    puts "Me chamo #{@name} tenho #{@age} anos, tenho #{@height} de altura e sou #{@sex}"
+    puts "Me chamo #{@name} tenho #{@age} anos, tenho #{@height} de altura e sou #{@gender}"
   end
 end
